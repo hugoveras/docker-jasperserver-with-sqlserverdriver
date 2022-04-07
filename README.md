@@ -1,5 +1,10 @@
 # JasperReports Server CE Edition Docker Container
 
+
+sudo docker build --no-cache -t jasperserverwithsqlserver .
+
+docker run -d --name jasperserver -e DB_TYPE=mysql -e DB_HOST=db -e DB_PORT=3306 -e DB_USER=root -e DB_PASSWORD=mysql --link jasperserver_mysql:db -p 8080:8080 jasperserverwithsqlserver restart=always
+
 The Docker Image aims to quickly get up-and-running a JasperReports Server for a development environment.
 
 [![](https://images.microbadger.com/badges/image/retriever/jasperserver.svg)](https://microbadger.com/images/retriever/jasperserver "Get your own image badge on microbadger.com")
