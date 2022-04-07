@@ -41,6 +41,13 @@ VOLUME ["/jasperserver-import"]
 ADD db2jcc4-no-pdq-in-manifest.jar /usr/src/jasperreports-server/buildomatic/conf_source/db/app-srv-jdbc-drivers/db2jcc4.jar
 ADD mysql-connector-java-5.1.44-bin.jar /usr/src/jasperreports-server/buildomatic/conf_source/db/app-srv-jdbc-drivers/mysql-connector-java-5.1.44-bin.jar
 ADD jtds-1.2.6.jar /usr/src/jasperreports-server/buildomatic/conf_source/db/app-srv-jdbc-drivers/jtds-1.2.6.jar
+ADD jtds-1.2.6.jar /usr/src/jasperreports-server/buildomatic/conf_source/db/app-srv-jdbc-drivers/jtds-1.2.6.jar
+
+ADD mssql-jdbc-10.2.0.jre8.jar /usr/src/jasperreports-server/buildomatic/conf_source/db/mssql-jdbc-10.2.0.jre8.jar
+ADD mssql-jdbc-10.2.0.jre17.jar /usr/src/jasperreports-server/buildomatic/conf_source/db/mssql-jdbc-10.2.0.jre17.jar
+ADD mmssql-jdbc-10.2.0.jre11.jar /usr/src/jasperreports-server/buildomatic/conf_source/db/mssql-jdbc-10.2.0.jre11.jar
+
+
 
 
 # Copy web.xml with cross-domain enable
