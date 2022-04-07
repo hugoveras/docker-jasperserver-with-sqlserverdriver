@@ -45,7 +45,7 @@ ADD jtds-1.2.6.jar /usr/src/jasperreports-server/buildomatic/conf_source/db/app-
 
 ADD mssql-jdbc-10.2.0.jre8.jar /usr/src/jasperreports-server/buildomatic/conf_source/db/mssql-jdbc-10.2.0.jre8.jar
 ADD mssql-jdbc-10.2.0.jre17.jar /usr/src/jasperreports-server/buildomatic/conf_source/db/mssql-jdbc-10.2.0.jre17.jar
-ADD mmssql-jdbc-10.2.0.jre11.jar /usr/src/jasperreports-server/buildomatic/conf_source/db/mssql-jdbc-10.2.0.jre11.jar
+ADD mssql-jdbc-10.2.0.jre11.jar /usr/src/jasperreports-server/buildomatic/conf_source/db/mssql-jdbc-10.2.0.jre11.jar
 
 
 
